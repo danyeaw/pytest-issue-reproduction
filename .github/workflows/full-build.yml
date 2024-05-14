@@ -20,7 +20,7 @@ env:
 
 jobs:
   linux-wheel:
-    name: Linux with Python ${{ env.python_version }}
+    name: Linux with Python
     runs-on: ubuntu-22.04
     container: fedora:39
     timeout-minutes: 15
